@@ -222,10 +222,6 @@ public abstract class BaseMob extends EntityCreature implements EntityAgeable {
         return false;
     }
 
-    protected float getMountedYOffset() {
-        return getHeight() * 0.75F;
-    }
-
     private void addHealth(int health) {
         this.setMaxHealth(this.getMaxHealth() + health);
         this.setHealth(this.getHealth() + health);
